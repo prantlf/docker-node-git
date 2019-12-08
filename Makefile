@@ -15,4 +15,3 @@ login ::
 
 push ::
 	docker push prantlf/node-git:lts-alpine
-
