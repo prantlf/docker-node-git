@@ -14,10 +14,10 @@ run ::
 	docker run --rm -t -i node-git busybox sh
 
 tag ::
-	docker tag node-git prantlf/node-git:lts-alpine
+	docker tag node-git prantlf/node-git
 
 login ::
 	docker login --username=prantlf
 
 push ::
-	docker push prantlf/node-git:lts-alpine
+	docker push prantlf/node-git
